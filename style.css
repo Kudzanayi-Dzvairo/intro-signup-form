@@ -44,7 +44,6 @@ body{
     width: 100vw;
     display: flex;
     justify-content: column;
-    border: 1px dotted blue;
 }
 
 
@@ -54,7 +53,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted red;
 }
 
 .box{
@@ -62,7 +60,12 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    border: 1px solid green;
+    
+}
+
+.right{
+    margin-left: 15em;
+    
 }
 
 /*------ left side -----*/
@@ -114,6 +117,9 @@ input{
     margin: 5em;
     width:80%;
     line-height: 5em;
+    border:none;
+    font-size: 0.7em;
+    padding-left: 2em;
 }
 
 button {
@@ -127,26 +133,30 @@ button {
     font-size: 1.2em
 }
 
-input[type="text"] {
-    font-size: 0.7em;
-  }
 
 input::placeholder{
-    color: hsl(246, 25%, 77%);
+    color: hsl(249, 10%, 26%) ;
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight:600;
+    padding-left: 2em;
 }
+
+
 
 small{
     display: block;
     color:hsl(246, 25%, 77%);
     margin-left:8em;
-    margin-top: 0.6em
+   
 }
 
 span{
     color:hsl(0, 100%, 74%)
+}
+
+input:focus{
+    outline: 2px solid hsl(246, 25%, 77%);
 }
 
 
