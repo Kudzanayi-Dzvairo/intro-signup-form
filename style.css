@@ -32,6 +32,11 @@
 
 /*---- body ----*/
 
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
 .main {
     background-image: url(./images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%) ;
@@ -56,4 +61,6 @@
     flex-direction: column;
     align-items: center;
 }
+
+h1
 
